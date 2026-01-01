@@ -1,0 +1,9 @@
+#eligibility to vote
+
+
+age=input("age of citizen:")
+country=input("country of citizen:")
+if(int(age)>=18 and country=='india'):
+  print("eligiblity to vote")
+else:
+  print("not eligible to vote")
