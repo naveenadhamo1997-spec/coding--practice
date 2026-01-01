@@ -1,0 +1,19 @@
+#simple calculator
+
+Number1=float(input("Enter the Number1: "))
+Number2=float(input("Enter the Number2: "))
+operation=input("Enter the operation: ")
+
+if(operation=="+"):
+ print(Number1+Number2)
+elif(operation=="-"):
+ print(Number1-Number2)
+elif(operation=="*"):
+ print(Number1*Number2)
+elif(operation=="/"):
+ print(Number1/Number2)
+elif(operation=="//"):
+ print(Number1//Number2)
+else:
+ print("Not a valid operation")
+
