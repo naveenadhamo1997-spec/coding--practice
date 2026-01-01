@@ -1,0 +1,9 @@
+#membership operator
+
+fruit=['apple','banana']
+
+print('apple' in fruit)
+print('mango' in fruit)
+word="anbarasan"
+print('a'in word )
+print(word.count('n'))
