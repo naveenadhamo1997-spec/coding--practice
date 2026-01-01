@@ -1,0 +1,10 @@
+#largest of two numbers
+
+first=input("first number:")
+second=input("second number")
+if(first>second):
+  print("first number is greater")
+elif(second>first):
+  print("second number is greater")
+else:
+  print("both number are equal")
