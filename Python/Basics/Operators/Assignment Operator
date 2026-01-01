@@ -1,0 +1,14 @@
+#assignment operator
+x=5
+x+=2
+print("Addition of X:", +x)
+x-=3
+print("subtraction of X:", x)
+x*=2
+print("Multiply of X:", x)
+x/=4
+print("Division of X", x)
+x//=4
+print("Floor Division of X", x)
+x%=3
+print("Modulo of X", x)
