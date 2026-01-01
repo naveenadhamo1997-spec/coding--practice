@@ -1,0 +1,16 @@
+#Bitwise operator(notes)
+
+A=5 ---0101
+B=4----0100
+(A&B)--0100=4 
+(A|B)----0101=5
+(A^B)---0001=1(if both are different then it returns one else zero
+~Not(compliment operator) 
+~A=-(A+1)=-6 formulae
+<< left shift
+A<< 2---0101
+           010100=20(we cant exclude the number) X<<n=>X*2^n=5*2^2=5*4=20
+>>right shift
+A>>2—0101(exclude the value)
+X>>n=>X/2^n=5/2^2=5/4=1
+             0001=1
