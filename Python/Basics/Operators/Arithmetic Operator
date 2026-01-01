@@ -1,0 +1,5 @@
+a=10
+b=3
+"""
+#arithmatic operator
+print(f"addtion of a and b ={a+b} \n subtraction of a and b ={a-b} \n multiply of a and b = {a*b} \n division of a and b ={a/b} \n floor division of a and b ={a//b} \n modulo of a and b {a%b} \n exponential of a and b {a**b}")
