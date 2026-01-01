@@ -1,0 +1,7 @@
+#check if a char is vowel or consonant
+vowel=['a','e','i','o','u']
+char=input("check char is vowel or consonant:")
+if(char in vowel):
+ print("char has vowel")
+else:
+ print("char has consonant")
