@@ -1,0 +1,8 @@
+# multiple of 3 and 7
+
+number=int(input("Enter the number:"))
+
+if(number%3==0 and number%7==0):
+ print("Number is multiples of both 3 and 7")
+else:
+ print("Number is not multiple of both 3 and 7")
