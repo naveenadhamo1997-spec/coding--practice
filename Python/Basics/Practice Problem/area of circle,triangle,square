@@ -1,0 +1,21 @@
+import math
+
+value1="Square"
+value2="circle"
+value3="triangle"
+Function=input("Enter the funtion need to perform:")
+if(Function==value1):
+ area_of_a_square= float(input("enter the area of square:"))
+ Area_of_a_square = area_of_a_square**2
+ print("Area of a square",Area_of_a_square)
+elif(Function==value2):
+ radius_of_a_circle=float(input("enter the area of circle:"))   
+ Area_of_a_circle= math.pi *radius_of_a_circle**2
+ print("Area of a circle",Area_of_a_circle)
+elif(Function==value3):
+ lenght_of_triangle=float(input("enter the len of triangle"))
+ base_of_triangle=float(input("enter the base of triangle"))
+ Area_of_a_triangle=1/2*lenght_of_triangle*base_of_triangle
+ print("Area_of_a_triangle",Area_of_a_triangle)
+else:
+ print("invalid function")
