@@ -1,0 +1,15 @@
+#Find the Number is Even or odd without using the % operator
+Number=float(input("Enter the Number:"))
+
+if(Number-(Number//2)*2==0):
+ Print("Number is Even")
+else:
+ print("Number is Odd")
+
+#Even or odd using string
+
+Number=input("Enter the Number:")
+if(Number[-1] in "02468"):
+ print("Even Number")
+else:
+ print("Odd Number")
