@@ -1,0 +1,8 @@
+#check number ends with same digit
+
+Number=input("Enter the Number:")
+
+if Number[0]==Number[-1]:
+ print("number's first and last didgits are same")
+else:
+ print("numbers are not same")
