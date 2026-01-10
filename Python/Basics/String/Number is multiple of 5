@@ -1,0 +1,8 @@
+#Number is multiple of 5 
+
+Number=input("Enter the Number:")
+
+if(Number[-1]=="0" or Number[-1]=="5"):
+ print("number is multiple of 5 ")
+else:
+ print("number is not multiple of 5")
