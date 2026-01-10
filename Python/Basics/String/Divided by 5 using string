@@ -1,0 +1,8 @@
+#Divided by 5
+
+Number=int(input("Enter the Number:"))#if number we pass as float we can use like number.is_interger()---this is used only if number is 2.0,3.0 ect.. if number is 3.3 it won't work 
+
+if(Number%5 == 0):
+ print("Number is Divided by 5")
+else:
+ print("Number is not divided by 5")
